@@ -29,7 +29,7 @@ public class Main {
         Network net = new Network(new int[] {3, 25, 25, 1}, Data.inputs, Data.outputs);
         
         // Train the network (iterations, print the error)
-        net.train(50000, true);
+        net.train(iterations, true);
         net.showOutput();
     }
 ```
