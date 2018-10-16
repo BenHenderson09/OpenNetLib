@@ -5,6 +5,7 @@ OpenMatrixLib is an open-source library created for development with dynamically
   - Completely dynamic network structure
   - As many layers as you like
   - Completely customizable 
+  - Supports one-hot encoding
 
 # Setup
 Currently, ONL only supports Java. Usage is very easy, simply navigate inside the "Java" directory, and use the .JAR file. 
