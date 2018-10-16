@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="OpenNetLib:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/OpenNetLib_jar</output-path>
+    <root id="archive" name="OpenNetLib.jar">
+      <element id="module-output" name="OpenNetLib" />
+    </root>
+  </artifact>
+</component>
