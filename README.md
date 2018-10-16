@@ -22,11 +22,14 @@ public class Main {
 
     public static void main(String[] args) {
         // Hyper Parameters
-        double learningRate = 0.001;
+        double learningRate = 0.04;
         int    iterations   = 50000;
 
         // Define Network (structure, inputs, outputs)
         Network net = new Network(new int[] {3, 25, 25, 1}, Data.inputs, Data.outputs);
+        
+        // Set the learning rate (optional, but reccomended)
+        net.setRate(learningRate);
         
         // Train the network (iterations, print the error)
         net.train(iterations, true);
